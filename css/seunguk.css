@@ -1,0 +1,112 @@
+
+/*.fa-map-marker:before{content:""}*/
+/*.fa-envelope:before{content:""}*/
+/*.fa-facebook:before{content:""}*/
+
+
+
+.font-big {
+    font-size: 4.7rem;
+}
+        
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.seunguk-totalinfo-all {
+    position:relative;
+    flex-grow: 9;
+}
+
+.seunguk-totalinfo-main {
+    position:relative;
+    /*display:flex;*/
+    /*flex-direction: row;*/
+    /*background-color: black;*/
+    justify-content: space-around;
+    color: white;
+    /*padding-left: 20%;*/
+}
+
+.seunguk-totalinfo-main > div {
+    padding-bottom : 3em;
+    padding-top: 3em;
+}
+
+
+.seunguk-totalinfo-overlay {
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    padding: 0;
+    background-color: rgba( 255, 255, 255, 0 );
+    color: white;
+    z-index: -1;
+    
+}
+
+.seunguk-totalinfo-leftwrapper {
+    background-image:url(//d2hmp4n7p97ldw.cloudfront.net/assets/home/home-univ-a2a9691778a5c9112aaf395c7760e66d50be2bcf530f189a0743b31937dec4af.jpg);
+    /*flex-grow: 5;*/
+    width: 80%;
+    text-align:center;
+    /*padding: 10%;*/
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.seunguk-totalinfo-left {
+    
+}
+            
+            
+.seunguk-totalinfo-rightwrapper {
+    /*flex-grow: 2;*/
+    width: 20%;
+    background-color: black;
+}
+            
+.seunguk-totalinfo-right {
+    /*justify-content: space-around;*/
+}
+
+.seunguk-footer-all {
+    display:flex; 
+    flex-direction: column;
+    flex-grow:1; 
+    background-color: black;
+                
+}
+.seunguk-footer-all > * {
+    text-align : center;
+    padding-top:1em;
+    padding-bottom: 1em;
+}
+
+.seunguk-footer-title {
+    flex-grow:1; 
+    color:white; 
+    font-size: 1.125rem;
+}
+
+.seunguk-footer-guide {
+     flex-grow:1;
+}
+
+.seunguk-footer-address {
+    flex-grow:1;
+    color:white;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+}
+.seunguk-footer-rep {
+    flex-grow:1; 
+    color: rgba(255,255,255,0.34); 
+    font-size: 0.7rem;
+}
+

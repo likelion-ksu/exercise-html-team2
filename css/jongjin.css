@@ -1,0 +1,119 @@
+
+
+.jin-main-div {
+  margin-top: 200px;
+  margin-bottom: 200px;
+    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+  
+}
+ 
+
+
+.jin-img1-div {
+   
+    width: 25vw;
+    height: 30vw;
+    color: #fff;
+    
+    
+    position: relative;
+  display: flex;
+   flex-direction: column;
+   justify-content: center;
+  background-size: contain;
+
+   
+ 
+}
+
+.jin-img2-div{
+   
+    
+    width: 25vw;
+    height: 30vw;
+    color: #fff;
+    position: relative;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-size: contain;
+ 
+ 
+}
+
+.jin-img3-div{
+   
+   
+   width: 25vw;
+   height: 30vw;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-size: contain;
+}
+
+.jin-img4-div{
+   
+   
+   width: 25vw;
+   height: 30vw;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-size: contain;
+}
+
+
+
+.jin-contents1-div {
+   position: relative;
+   color: #fff;
+   
+   
+   text-align: center;
+   font-weight: 700;
+   
+   
+}
+
+
+.jin-contents2-div {
+   
+   position: relative;
+   color: #fff;
+   
+   
+   text-align: center;
+   font-weight: 700;
+   
+   
+}
+
+
+
+.jin-contents3-div {
+   position: relative;
+   /*position:absolute;*/
+   color: #fff;
+   
+   
+   text-align: center;
+   font-weight: 700;
+   
+   
+}
+
+.jin-contents4-div {
+   
+   position: relative;
+   color: #fff;
+   
+   text-align: center;
+   font-weight: 700;
+}

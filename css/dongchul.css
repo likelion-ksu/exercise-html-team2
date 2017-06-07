@@ -1,0 +1,81 @@
+.dong-main-div {
+    flex-grow:1; 
+    padding-top:40; 
+    padding-bottom:140;
+}
+
+.dong-misson-div {
+    padding-right:15; 
+    padding-left: 5%;
+}
+
+.dong-firstimg-div {
+    height: 14.95vw;
+    width:60vw;
+    display:flex; 
+    flex-direction: row
+}
+
+.dong-firstbackground-div {
+    background-image: url('https://d2hmp4n7p97ldw.cloudfront.net/assets/home/om-01-f319ca68d22ba28f0c839835dec39f09786ee24ba73c783abdb526d3165bc67e.png'); 
+    flex-grow:4;
+    background-size: contain;
+    background-repeat: round;
+}
+
+.dong-blank-div {
+    display:flex;
+    height: 50px
+}
+
+.dong-maintext-div {
+    height: 18vw;
+    display:flex; 
+    flex-direction: row
+}
+
+.dong-text-div {
+    flex-grow:6; 
+    padding-left: 5%;
+}
+
+.dong-secondbackground-div {
+    background-image: url('https://d2hmp4n7p97ldw.cloudfront.net/assets/home/om-02-7cf5a9b8b6c5c612b4a190a3c025d626b92f06cecc458c0304936e9516bde213.png'); 
+    background-size: contain;
+    background-repeat: round; 
+    flex-basis:46%;
+}
+
+.dong-bold-font {
+    font-weight:bold
+}
+
+.dong-h1 {
+    margin-bottom: 2rem;
+    letter-spacing: -0.0375rem;
+    font-weight: 100;
+    font-size: 3.3475rem;
+    font-family: inherit;
+    margin: 0.67em 0;
+}
+
+.dong-h2{
+    margin-bottom: 2rem;
+    letter-spacing: -0.025rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 2.625rem;
+    margin-top: 2rem;
+    line-height: 3.1125rem;
+    font-family: inherit;
+}
+
+.dong-h6{
+    line-height: 1.625rem;
+    letter-spacing: -0.0125rem;
+    font-weight: 100;
+    font-size: 1.075rem;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    margin-top: 0;
+}

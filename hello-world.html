@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lion</title>
+	<style>
+		div {
+			background-color:green;
+			text-align:center;
+		}
+	
+		.main-div {
+			border: solid 1px gray; 
+			height: 500px; 
+			padding:10px; 
+			position:static;
+		}
+		
+		.static-div {
+			border: solid 1px gray;
+			height: 50px;
+			width:50px;
+			position:static;
+		}
+		
+		.relative-div {
+			border: solid 1px gray;
+			height: 50px; 
+			width:50px; 
+			position:relative; 
+			top:10px;
+			left:10px;
+		}
+		
+		.fixed-div {
+			border: solid 1px gray;
+			height: 50px; 
+			width:50px; 
+			position:fixed;
+			bottom:20px; 
+			right:20px;
+		}
+		
+		.absolute-div {
+			border: solid 1px gray;
+			height: 50px; 
+			width:50px;
+			position:absolute;
+			bottom:20px; 
+			right:20px;
+			z-index:2;
+		}
+	</style>
+</head>
+<body>
+	<div class="main-div">
+		<div class="static-div">
+			static
+		</div>
+		<div class="static-div">
+			static
+			<div class="relative-div">
+			relative
+			</div>
+		</div>
+		<div class="fixed-div">
+			fixed
+		</div>
+		<div class="absolute-div">
+			absolutevhvh
+			asdffd
+		</div>
+	</div>
+	
+</body>
+</html>
